@@ -1,0 +1,15 @@
+{% if l %}
+
+    <ul>
+
+        {% for i in l %}<li>{{i.id}}.{{i.question_text}}</li>{% endfor %}
+    </ul>
+
+
+    
+
+{% endif %}
+
+
+
+{{ latest_question_list }}
